@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup || Kitna Deti Hai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="js/basic.js" type="text/javascript"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- my favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+	<link rel="shortcut icon" href="favicon.ico" />
+  </head>
+
+	<!-- my styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <script src="js/jquery.1.8.3.min.js" type="text/javascript"></script>
+  
+    <!-- waypoints -->
+	<script src="js/waypoints.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+    
+    <!-- jquery ui -->
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    
+    <!-- font awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+  <body>
+
+	<div id="beta_sticker">
+    	Beta
+    </div>
+    
+    <div id="logo">
+    	<a href="index.html">Kitna Deti Hai</a>
+    </div>
+    
+    <div id="nav_side">
+		<h1>Hi There!</h1>
+		
+		<div id="help_text">
+			Some Helpful Information About the Page You Are On. 
+		</div>
+        
+		<!-- Contact Form -->
+		<form id="side_contact_form">
+			<!--<label for="name">Name</label>
+			<input name="name" id="name" type="text"/>
+		
+			<label for="name">Email</label>
+			<input name="name" id="name" type="text"/>-->
+			
+			<label for="name">Comment</label>
+			<textarea name="name" id="name"/></textarea><br/>
+			
+			<input type="submit" value="Send">
+		</form>
+		
+     	<div id="nav_arrow">
+    		<img src="images/general/nav_arrow2.png">
+    	</div>
+    </div>
+    <div id="border_top"></div>
+    <div id="green_strip">
+    	<nav>
+        	<ul>
+				<a href="index.html" title="Home"><li><i class="icon-home"></i></li></a>
+				<a href="about.html" title="About"><li><i class="icon-info"></i></li></a>        
+				<a href="FAQ.html" title="FAQ"><li><i class="icon-question"></i></li></a>        
+				<a href="contact.html" title="Contact"><li><i class="icon-comment-alt"></i></li></a>
+				<a id="login_link" class="header_links" href="Login_main.html" title="Login"><i class="icon-key"></i></a>
+				<a id="signup_link" class="header_links" href="SignUp.html" title="Sign Up"><i class="icon-plus"></i></a>
+			</ul>
+        </nav>
+  		<div id="border_bottom"></div>
+    </div>
+
+	  <!-- Page Content -->
+      <div class="page_content">
+      <!-- Form -->
+      <div class="row" id="signup_row">
+        <div >
+          <h1>Sign Up</h1>
+          <form id="sign_up_form" class="register" name="reg" action="reg.html" method="post">
+          	<input type="text" class="text-field" placeholder="First Name" name="fname" id="fname"/>
+            <input type="text" class="text-field" placeholder="Last Name" name="lname" id="lname"/>
+            <input type="text" class="text-field" placeholder="Email" name="email" id="email"/>
+            <input type="password" class="text-field" placeholder="Password" name="password" id="password"/>
+            <input type="password" class="text-field" placeholder="Repeat Password" name="repeat" id="repeat" />
+            <select name="h_degree" class="text-field" id="h_degree">
+            <option>Highest Degree</option>
+            <option value="MBA">MBA</option>
+            <option value="M.Tech">M.Tech</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Sc">M.Sc</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="B.C.A">B.C.A</option>
+            <option value="DIPLOMA">DIPLOMA</option>
+            <option value="Other">Other</option>
+            </select>
+            <select name="year_gra" class="text-field" id="year_gra">
+            <option>Year Of Graduation</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2005">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            </select><br>
+            <select name="industry" class="text-field" id="industry">
+            <option>Select Industry</option>
+            <option value="IT">IT</option>
+            <option value="Banking">Banking</option>
+            </select><br>
+            <input type="checkbox" name="agree" id="agree" ><div>I agree terms and conditions</div>
+            <br/><br/>
+            
+            <input type="submit" value="Register Account" style="background-image:none"  class="btn btn-primary btn-large button_green" onclick="return reg_validations();"/>
+        
+        </form>
+        </div>
+          
+        </div><!-- end of signup row -->
+      </div><!-- end of page content -->
+
+      <footer id="strip">
+        <nav>
+        	<ul>
+        		<a href="index.html"><li>Home</li></a>
+                <a href="sample.html"><li>Sample</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="FAQ.html"><li>FAQ</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+        	</ul>
+        </nav>
+        <p>&copy; Kitna Deti Hai 2013</p>
+        <div id="social">
+        	<a href="#"><img src="images/social_icons/twitter_1.png"/></a>
+            <a href="#"><img src="images/social_icons/fb_1.png"/></a>
+        </div>
+      </footer>
+    
+
+  </body>
+</html>

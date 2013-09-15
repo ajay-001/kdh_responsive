@@ -1,0 +1,76 @@
+/* CSS Document */
+
+div#beta_sticker{
+	text-transform:uppercase;
+	background-color:#90cd2d;
+	padding:10px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	display:inline-block;	
+}
+@font-face{
+	src: url(../fonts/Exo-Medium.otf);
+	font-family:exo;	
+}
+div#logo{
+	font-family:exo;
+	color:#90cd2d;
+	font-size:40px;
+	margin-bottom:.8em;
+	margin-top:.5em;
+	margin-left:1.5em;	
+}
+div#green_strip{
+	background-color:#90cd2d;
+	width:100%;
+	height:2em;
+	margin-top:1em;	
+}
+
+div.hero-unit{
+	background-image:url('../images/nature.jpg');
+	background-color:#05ca4f;	
+	margin-bottom:0px;
+	border-radius:0;
+}
+div#content_row{
+	background-image:url('../images/grey.png');	
+	padding-top:1em;
+	padding-bottom:1em;
+	height:30em;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+hr#line{
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);	
+}
+
+body{
+	padding-bottom:0px;	
+}
+
+footer{
+	width:100%;
+	height:8em;
+	margin-bottom:0;	
+	background-image: url('../images/wild_oliva.png');
+	color:white;
+	font-family:exo;
+	font-size:20px;
+	position:relative;
+}
+footer p{
+	padding:1em;
+	padding-right:3em;
+	float:right;
+	position:absolute;
+	bottom:0em;
+	right:0em;
+}
+html,body{
+padding:0;
+margin:0;	
+}

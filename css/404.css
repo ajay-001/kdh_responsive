@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Fourcontent h4{
+	line-height:1.5em;
+	text-shadow:1px 1px white;
+	margin-bottom:2em;	
+	text-align:center;
+}
+.Fourcontent h3{
+	text-align:center;	
+}
+.Fourcontent ul{text-align:center;}
+.Fourcontent ul li{
+	list-style:none;
+	padding:.5em;
+}
+.Fourcontent{
+	padding:1em;	
+}
+.Fourcontent a{
+	color:#90cd2d;	
+}
